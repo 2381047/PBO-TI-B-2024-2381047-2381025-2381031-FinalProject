@@ -9,7 +9,7 @@ public class TodolistServiceImpl implements TodoListService {
 
     // Constructor untuk menyuntikkan repository
     public TodoListServiceImpl() {
-        this.TodoListRepository = new TodoListRepositoryImpl(); // menggunakan implementasi default
+        this.todoListRepository = new TodoListRepositoryImpl(); // menggunakan implementasi default
     }
 
     @Override
